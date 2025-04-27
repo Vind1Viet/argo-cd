@@ -2,7 +2,7 @@ config-server:
   replicaCount: 1
   image:
     repository: "quocviet10011/spring-petclinic-config-server"
-    tag: "V1.0.0"
+    tag: "latest"
     pullPolicy: IfNotPresent
   service:
     enabled: true
@@ -15,7 +15,7 @@ discovery-server:
   replicaCount: 1
   image:
     repository: "quocviet10011/spring-petclinic-discovery-server"
-    tag: "V1.0.0"
+    tag: "latest"
     pullPolicy: IfNotPresent
   service:
     enabled: true
@@ -28,7 +28,7 @@ admin-server:
   replicaCount: 1
   image:
     repository: "quocviet10011/spring-petclinic-admin-server"
-    tag: "V1.0.0"
+    tag: "latest"
     pullPolicy: IfNotPresent
   service:
     enabled: true
@@ -41,7 +41,7 @@ api-gateway:
   replicaCount: 1
   image:
     repository: "quocviet10011/spring-petclinic-api-gateway"
-    tag: "V1.0.0"
+    tag: "latest"
     pullPolicy: IfNotPresent
   service:
     enabled: true
@@ -54,7 +54,7 @@ customers-service:
   replicaCount: 1
   image:
     repository: "quocviet10011/spring-petclinic-customers-service"
-    tag: "V1.0.0"
+    tag: "latest"
     pullPolicy: Always
   service:
     enabled: true
@@ -66,7 +66,7 @@ genai-service:
   replicaCount: 1
   image:
     repository: "quocviet10011/spring-petclinic-genai-service"
-    tag: "V1.0.0"
+    tag: "latest"
     pullPolicy: Always
   service:
     enabled: true
@@ -78,7 +78,7 @@ visits-service:
   replicaCount: 1
   image:
     repository: "quocviet10011/spring-petclinic-visits-service"
-    tag: "V1.0.0"
+    tag: "latest"
     pullPolicy: Always
   service:
     enabled: true
@@ -90,7 +90,7 @@ vets-service:
   replicaCount: 1
   image:
     repository: "quocviet10011/spring-petclinic-vets-service"
-    tag: "V1.0.0"
+    tag: "latest"
     pullPolicy: Always
   service:
     enabled: true
